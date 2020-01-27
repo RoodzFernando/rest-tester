@@ -1,3 +1,5 @@
 AllCops:
   Excludes:
-    - db/schema.rb
+    - config/unicorn.rb
+    - db/**
+  RunRailsCops: true
