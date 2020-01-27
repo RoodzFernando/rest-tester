@@ -1,4 +1,14 @@
 AllCops:
-  Excludes:
-    - db/**
+  Exclude:
+    - 'db/schema.rb'
+  DisplayCopNames: true
   RunRailsCops: true
+
+Documentation:
+  Enabled: false
+
+Metrics/LineLength:
+  Max: 180
+
+Metrics/MethodLength:
+  Max: 20
