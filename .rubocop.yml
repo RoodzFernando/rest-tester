@@ -38,5 +38,5 @@ Layout/MultilineMethodCallIndentation:
 Documentation:
   Enabled: false
 
-Metrics/LineLength:
-  Max: 180
+#Metrics/LineLength:
+  #Max: 180
