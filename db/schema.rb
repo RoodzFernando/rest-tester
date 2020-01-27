@@ -1,5 +1,5 @@
-#ActiveRecord::Schema.define(version: 2020_01_24_203812) do
-ActiveRecord::Schema.define(version: 20200124203812) do
+# ActiveRecord::Schema.define(version: 2020_01_24_203812) do
+ActiveRecord::Schema.define(version: 2020-01-24-203812) do
   create_table 'users', force: :cascade do |t|
     t.string 'name'
     t.string 'email'
