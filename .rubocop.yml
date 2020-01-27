@@ -1,5 +1,6 @@
 AllCops:
   Exclude:
+<<<<<<< HEAD
     - "bin/*"
     - "db/**/*"
     - "config/**/*"
@@ -33,3 +34,17 @@ Layout/ExtraSpacing:
 Layout/MultilineMethodCallIndentation:
   Enabled: true
   EnforcedStyle: indented
+=======
+    - 'db/schema.rb'
+  DisplayCopNames: true
+  RunRailsCops: true
+
+Documentation:
+  Enabled: false
+
+Metrics/LineLength:
+  Max: 180
+
+Metrics/MethodLength:
+  Max: 20
+>>>>>>> 69ecacb88e1a89304850d3ef4366866ff2b73fb1
